@@ -1,0 +1,119 @@
+/* assets/css/style.css - Custom Styles for Event Management System */
+
+/* ================= General Styles ================= */
+body {
+  font-family: 'Arial', sans-serif; /* Set default font family */
+  line-height: 1.6; /* Set default line height for readability */
+  background-color: #f8f9fa; /* Light gray background color */
+}
+
+/* ================= Navigation Styles ================= */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,.1); /* Add subtle box shadow to navbar */
+}
+
+/* ================= Card Styles ================= */
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075); /* Add subtle box shadow to cards */
+  margin-bottom: 1rem; /* Add bottom margin to cards for spacing */
+}
+
+.card-header {
+  background-color: #f8f9fa; /* Light gray background for card headers */
+  border-bottom: 1px solid rgba(0,0,0,.125); /* Bottom border for card headers */
+}
+
+/* ================= Admin Dashboard Styles ================= */
+.sidebar {
+  position: fixed; /* Fixed sidebar position */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Ensure sidebar is above other content */
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0,0,0,.1); /* Inset box shadow for sidebar border */
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px); /* Full viewport height minus navbar height */
+  padding-top: .5rem;
+  overflow-x: hidden; /* Hide horizontal overflow */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+/* ================= Form Styles ================= */
+.form-control:focus {
+  border-color: #80bdff; /* Highlight border color on focus */
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); /* Add focus box shadow */
+}
+
+/* ================= Table Styles ================= */
+.table-responsive {
+  margin-bottom: 1rem; /* Add bottom margin to responsive tables */
+}
+
+.table th {
+  background-color: #f8f9fa; /* Light gray background for table headers */
+}
+
+/* ================= Button Styles ================= */
+.btn-group .btn {
+  margin-right: 5px; /* Add right margin to buttons in button groups */
+}
+
+/* ================= Event Card Styles ================= */
+.event-card {
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.event-card:hover {
+  transform: translateY(-5px); /* Move card up slightly on hover */
+}
+
+/* ================= Pagination Styles ================= */
+.pagination {
+  margin-top: 2rem; /* Top margin for pagination */
+  margin-bottom: 2rem; /* Bottom margin for pagination */
+}
+
+/* ================= Statistics Card Styles ================= */
+.stat-card {
+  border-radius: 10px; /* Rounded corners for stat cards */
+  padding: 20px; /* Padding inside stat cards */
+  margin-bottom: 20px; /* Bottom margin for stat cards */
+}
+
+.stat-card h2 {
+  font-size: 2.5rem; /* Large font size for stat card titles */
+  margin-bottom: 0; /* Remove bottom margin from stat card titles */
+}
+
+/* ================= Responsive Design ================= */
+@media (max-width: 768px) { /* Media query for screens up to 768px width */
+  .sidebar {
+    position: static; /* Make sidebar static on smaller screens */
+    padding-top: 0; /* Remove top padding on smaller screens */
+  }
+
+  .main {
+    margin-left: 0 !important; /* Remove left margin from main content on smaller screens */
+  }
+}
+
+/* ================= Custom Alert Styles ================= */
+.alert {
+  border-radius: 0.25rem; /* Rounded corners for alerts */
+  margin-bottom: 1rem; /* Bottom margin for alerts */
+}
+
+/* ================= Form Validation Styles ================= */
+.was-validated .form-control:invalid {
+  border-color: #dc3545; /* Red border for invalid form inputs */
+  padding-right: calc(1.5em + 0.75rem); /* Add padding for invalid icon */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e"); /* Invalid icon (inline SVG) */
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
