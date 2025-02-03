@@ -87,7 +87,7 @@ event-management-system/
 
 
 ## Live Demo
-[🔗 eventmanagement.wuaze.com]
+[eventmanagement.wuaze.com (http://eventmanagement.wuaze.com)]
 
 ## Test Login Credentials
 **Regular User:**
