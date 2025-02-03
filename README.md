@@ -27,7 +27,7 @@ This is a simple web-based Event Management System developed using pure PHP and 
 - **AJAX-Powered Interactions**: Smooth user experience **registration, event updates, and cancellations**.
 - **JSON API**: Retrieve event details dynamically via API endpoints.
 
-## 🛠Tech Stack
+## Tech Stack
 - **Backend**: PHP (pure, procedural & PDO)
 - **Database**: MySQL
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap 5
