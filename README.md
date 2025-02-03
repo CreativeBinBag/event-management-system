@@ -86,17 +86,17 @@ event-management-system/
    - Open `http://localhost/event-management-system/` in your browser.
 
 
-## 🌐 Live Demo
+## Live Demo
 [🔗 eventmanagement.wuaze.com]
 
-## 🔑 Test Login Credentials
-**🎫 Regular User:**
-- **📧 Email:** `test@example.com`
-- **🔑 Password:** `Test123@`
+## Test Login Credentials
+**Regular User:**
+- **Email:** `test@example.com`
+- **Password:** `Test123@`
 
-**🛠️ Admin User:**
-- **📧 Email:** `admin@example.com`
-- **🔑 Password:** `Admin123@`
+**Admin User:**
+- **Email:** `admin@example.com`
+- **Password:** `Admin123@`
 
 
 
