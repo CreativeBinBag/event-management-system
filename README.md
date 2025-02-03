@@ -1,38 +1,38 @@
 Event Management System
 
-## 🚀 Overview
-This is a web-based Event Management System developed using pure PHP and MySQL. It allows users to create, manage, and view events, as well as register as attendees and generate event reports. The system is designed with a focus on security, usability, and maintainability.
+## Description
+This is a simple web-based Event Management System developed using pure PHP and MySQL. It allows users to create, manage, and view events, as well as register as attendees and generate event reports. The system is designed with a focus on security, usability, and maintainability.
 
-## ✨ Features
+## Features
 
-### 🎟️ Core Features
-- **🔐 User Authentication**
+### Core Features
+- **User Authentication**
   - Secure registration with **Argon2id** password hashing.
   - Smooth login & logout experience with **session management**.
   - CSRF protection for authentication actions.
-- **📅 Event Management**
+- **Event Management**
   - Users can reate, edit, delete, and view events.
   - Users can define **title, description, date, location, and capacity**.
   - **Permissions-based access** to prevent unauthorized modifications.
-- **📝 Attendee Registration**
+- **Attendee Registration**
   - Hassle-free event registration with **capacity limits**.
   - Option to **cancel registrations** easily.
-- **📊 Event Dashboard**
+- **Event Dashboard**
   - **Paginated, sortable, and filterable** event listings.
-- **📈 Event Reports**
+- **Event Reports**
   - **CSV export functionality** for admins to manage attendee data easily.
 
-### 🎁 Additional Features
-- **🔍 Search functionality**: Find events by **title, description, and location**.
-- **⚡ AJAX-Powered Interactions**: Smooth user experience **registration, event updates, and cancellations**.
-- **🌎 JSON API**: Retrieve event details dynamically via API endpoints.
+### Additional Features
+- **Search functionality**: Find events by **title, description, and location**.
+- **AJAX-Powered Interactions**: Smooth user experience **registration, event updates, and cancellations**.
+- **JSON API**: Retrieve event details dynamically via API endpoints.
 
-## 🛠️ Tech Stack
+## 🛠Tech Stack
 - **Backend**: PHP (pure, procedural & PDO)
 - **Database**: MySQL
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap 5
 
-## 📂 Codebase Structure (Tree)
+## Codebase Structure (Tree)
 ```
 event-management-system/
 ├── AJAX/                          # Handles AJAX-based interactions
@@ -65,10 +65,10 @@ event-management-system/
 
 ```
 
-## 🛠️ Installation Guide
-### 🌍 Local Setup (XAMPP Example)
+## Installation Guide
+### Local Setup (XAMPP)
 1. **Download & Install XAMPP** ([Click here](https://www.apachefriends.org/download.html))
-2. **Clone or Download the Project**
+2. **Clone or download the project**
    - Place files inside `htdocs` (`C:\xampp\htdocs\event-management-system`)
 3. **Create a Database**
    - Open `phpMyAdmin` (`http://localhost/phpmyadmin/`)
